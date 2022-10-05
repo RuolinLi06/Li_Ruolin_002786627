@@ -372,7 +372,7 @@ public class AddJPanel extends javax.swing.JPanel {
         JFrame frame = new JFrame();
         frame.setBounds(100, 100, 750, 500);
 	JFileChooser chooser = new JFileChooser();
-        chooser.setCurrentDirectory(new java.io.File("D:\\workspace\\netbeans\\Employee Management System"));
+        chooser.setCurrentDirectory(new java.io.File("D:\\workspace\\netbeans\\Li_Ruolin_002786627\\Employee Management System"));
 	int flag = chooser.showOpenDialog(frame);
 
 	if (flag == JFileChooser.APPROVE_OPTION){
